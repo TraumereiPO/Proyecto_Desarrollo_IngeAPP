@@ -1,0 +1,4 @@
+En esta carpeta llevaremos a cabo el proyecto del profesor que implica desarollar una app 
+Web.
+
+Para el desarrollo es necesario aprender sobre HTML5, CSS3 y Java Script

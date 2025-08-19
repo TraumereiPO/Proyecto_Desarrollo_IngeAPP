@@ -1,0 +1,4 @@
+En esta carpeta llevaremos a cabo los proyectos del profesor que implica desarollar una app 
+Movil y su respectiva documentación.
+
+Para su desarrollo es necesario aprender sobre el framework Kotlin y Android Studio
