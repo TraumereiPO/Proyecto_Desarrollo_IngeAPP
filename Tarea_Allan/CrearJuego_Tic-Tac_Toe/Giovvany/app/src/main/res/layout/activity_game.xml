@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/white_box"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player 1"
+                android:textAlignment="center"
+                android:textColor="@color/primary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:srcCompat="@drawable/icon_close_24" />
+
+            <TextView
+                android:id="@+id/tvScorePlayer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="34sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/white_box"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvPlayer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player 2"
+                android:textAlignment="center"
+                android:textColor="@color/primary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:srcCompat="@drawable/icon_circle_24" />
+
+            <TextView
+                android:id="@+id/tvScorePlayer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textSize="34sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:onClick="play"
+                android:textColor="@color/primary"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:onClick="play"
+                android:textColor="@color/primary"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:onClick="play"
+                android:textColor="@color/primary"
+                android:textSize="60sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:onClick="play"
+                android:textColor="@color/primary"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:onClick="play"
+                android:textColor="@color/primary"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:onClick="play"
+                android:textColor="@color/primary"
+                android:textSize="60sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:onClick="play"
+                android:textColor="@color/primary"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:onClick="play"
+                android:textColor="@color/primary"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:onClick="play"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/primary"
+                android:textSize="60sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/white"
+            android:onClick="nuevaPartida"
+            android:text="Nueva partida"
+            android:textColor="@color/primary"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>
