@@ -1,4 +1,3 @@
-readme
 Proyecto: Organizador de Tareas
 
 Este proyecto consiste en una aplicación para la gestión de tareas, metas, hábitos, notas y calendario, diseñada para ayudar a los usuarios a organizar su tiempo y actividades de manera más eficiente.
