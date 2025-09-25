@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método de Pago</title>
+    </head>
+<body>
+
+    <div class="payment-container">
+        
+        <h1 class="title">Método de Pago</h1>
+        
+        <form class="payment-form">
+
+            <div class="form-row">
+                <div class="input-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div class="input-group">
+                    <label for="tarjeta">Número de tarjeta:</label>
+                    <input type="text" id="tarjeta" name="tarjeta">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="input-group">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo">
+                </div>
+                <div class="input-group">
+                    <label for="vencimiento">Fecha de vencimiento</label>
+                    <input type="text" id="vencimiento" name="vencimiento" placeholder="MM/AA">
+                </div>
+            </div>
+
+            <div class="input-group full-width">
+                <label for="pais">País</label>
+                <input type="text" id="pais" name="pais">
+            </div>
+
+            <div class="input-group full-width">
+                <label for="ciudad">Ciudad</label>
+                <input type="text" id="ciudad" name="ciudad">
+            </div>
+
+            <div class="button-group">
+                <button type="button" class="btn cancel-btn">Cancelar</button>
+                <button type="submit" class="btn confirm-btn">Confirmar pago</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>

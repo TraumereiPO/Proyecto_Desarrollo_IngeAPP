@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+    </head>
+<body>
+
+    <main class="profile-card">
+        
+        <section class="profile-photo-section">
+            <div class="profile-photo-placeholder">
+                </div>
+
+            <button class="action-button upload-photo">Subir nueva foto</button>
+            <button class="action-button delete-photo">Eliminar foto</button>
+
+            <button class="logout-button">Cerrar Sesión</button>
+        </section>
+
+        <form class="profile-form">
+            
+            <div class="form-section">
+                <h2>DATOS PERSONALES</h2>
+                
+                <label for="nombre-completo">Nombre completo:</label>
+                <input type="text" id="nombre-completo" name="nombre-completo">
+
+                <label for="correo-electronico">Correo electrónico:</label>
+                <input type="email" id="correo-electronico" name="correo-electronico">
+                
+                <label for="numero-telefono">Número de Teléfono:</label>
+                <input type="tel" id="numero-telefono" name="numero-telefono">
+            </div>
+            
+            <div class="form-section">
+                <h2>SEGURIDAD</h2>
+                
+                <label for="contrasena-actual">Contraseña actual:</label>
+                <input type="password" id="contrasena-actual" name="contrasena-actual">
+
+                <label for="nueva-contrasena">Nueva contraseña:</label>
+                <input type="password" id="nueva-contrasena" name="nueva-contrasena">
+
+                <label for="confirmar-contrasena">Confirmar contraseña:</label>
+                <input type="password" id="confirmar-contrasena" name="confirmar-contrasena">
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="save-button">Guardar cambios</button>
+                <button type="button" class="cancel-button">Cancelar</button>
+            </div>
+        </form>
+
+    </main>
+
+</body>
+</html>
