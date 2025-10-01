@@ -5,12 +5,26 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.EditText
+import io.socket.client.IO
+import io.socket.client.Socket
+import java.net.URISyntaxException
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var socket: Socket
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        try {
+            socket = IO.socket("http://10.0.2.2:3000")
+        } catch (e: URISyntaxException) {
+            e.printStackTrace()
+        }
+
+        socket.connect()
+
     }
 
     fun nextScreen(v:View){
