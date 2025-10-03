@@ -3,10 +3,10 @@ package com.agenciacristal.tictacapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
-import android.util.Log
 import io.socket.client.IO
 import io.socket.client.Socket
 import org.json.JSONObject
@@ -41,11 +41,13 @@ class MainActivity : AppCompatActivity() {
 
         socket.on("welcome") { args ->
             if (args.isNotEmpty()) {
-                val data = args[0] as JSONObject
-                val mensaje = data.getString("msg")
+                val obj = args[0]
+                if (obj is JSONObject) {
+                    val mensaje: String = obj.optString("msg", "Mensaje vacío")
 
-                runOnUiThread {
-                    Toast.makeText(this, mensaje, Toast.LENGTH_LONG).show()
+                    runOnUiThread{
+                        Toast.makeText(this@MainActivity,mensaje, Toast.LENGTH_LONG).show()
+                    }
                 }
             }
         }
@@ -54,15 +56,14 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun nextScreen(v:View){
+    fun nextScreen(v :View){
         val player1 = findViewById<EditText>(R.id.etPlayer1)
         val player2 = findViewById<EditText>(R.id.etPlayer2)
 
-        var intent = Intent(applicationContext,GameActivity::class.java)
+        val intent = Intent(applicationContext,GameActivity::class.java)
         intent.putExtra("player1",player1.text.toString())
         intent.putExtra("player2",player2.text.toString())
         startActivity(intent)
-
     }
     override fun onDestroy() {
         super.onDestroy()

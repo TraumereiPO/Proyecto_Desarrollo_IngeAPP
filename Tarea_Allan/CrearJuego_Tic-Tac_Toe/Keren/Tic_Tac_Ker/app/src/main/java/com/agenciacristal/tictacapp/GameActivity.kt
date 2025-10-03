@@ -7,8 +7,15 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import android.util.Log
+import io.socket.client.IO
+import io.socket.client.Socket
+import org.json.JSONObject
+
 
 class GameActivity : AppCompatActivity() {
+
+    private lateinit var socket: Socket
 
     lateinit var b1:Button
     lateinit var b2:Button
@@ -25,7 +32,6 @@ class GameActivity : AppCompatActivity() {
     lateinit var tvScorePlayer2:TextView
 
     var currentPlayer:Int = 1
-
     var scorePlayer1:Int = 0
     var scorePlayer2:Int = 0
     var gameFinished:Boolean = false
@@ -33,8 +39,29 @@ class GameActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
-
         initUI()
+
+        try {
+            socket = IO.socket("http://10.0.2.2:3000") // si usas emulador
+            socket.connect()
+        } catch (e: Exception) {
+            Log.e("SocketError", "Error al conectar: ${e.message}")
+        }
+        socket.on("move") { args ->
+            if (args.isNotEmpty()) {
+                val data = args[0] as JSONObject
+                val cell = data.getInt("cell")
+                val player = data.getString("player")
+
+                runOnUiThread {
+                    val button = getButtonByCell(cell)
+                    if (button.text.isEmpty()) {
+                        button.text = player
+                    }
+                }
+            }
+        }
+
     }
 
     private fun initUI() {
@@ -56,45 +83,43 @@ class GameActivity : AppCompatActivity() {
         tvPlayer2.text = intent?.extras?.getString("player2").toString()
         nuevaPartida(tvPlayer1)
     }
+    fun play(btn: View) {
+        val myBtn: Button = btn as Button
+        if (!gameFinished && myBtn.text.toString().isEmpty()) {
+            val playerSymbol = if (currentPlayer == 1) "X" else "O"
+            myBtn.text = playerSymbol
 
-    fun play(btn:View){
-        val myBtn:Button = btn as Button
-        if(!gameFinished && btn.text.toString().isEmpty()){
-            if(currentPlayer == 1){
-                btn.text = "X"
-                validateWinner(btn)
-                currentPlayer = 2
-                tvPlayer1.setTextColor(Color.GRAY)
-                tvPlayer2.setTextColor(Color.BLACK)
-            }else{
-                btn.text = "O"
-                validateWinner(btn)
-                currentPlayer = 1
-                tvPlayer1.setTextColor(Color.BLACK)
-                tvPlayer2.setTextColor(Color.GRAY)
-            }
+            val move = JSONObject()
+                .put("cell", getCellNumber(myBtn)) // número de la celda
+                .put("player", playerSymbol)
+            socket.emit("move", move)
+
+            validateWinner(myBtn)
+
+            currentPlayer = if (currentPlayer == 1) 2 else 1
+            tvPlayer1.setTextColor(if (currentPlayer == 1) Color.BLACK else Color.GRAY)
+            tvPlayer2.setTextColor(if (currentPlayer == 2) Color.BLACK else Color.GRAY)
         }
     }
 
-    fun validateWinner(btn:View){
-
-        if(validateCards(btn)){
-            if(currentPlayer==1){
+    private fun validateWinner(btn: View)
+    {
+        if (validateCards(btn)) {
+            if (currentPlayer == 1) {
                 scorePlayer1++
                 tvScorePlayer1.text = "$scorePlayer1"
-            Toast.makeText(applicationContext,"${tvPlayer1.text} Ganaste!!",Toast.LENGTH_LONG).show()
-
-            }else{
+                Toast.makeText(applicationContext, "${tvPlayer1.text} Ganaste!!", Toast.LENGTH_LONG)
+                    .show()
+            } else {
                 scorePlayer2++
                 tvScorePlayer2.text = "$scorePlayer2"
-                Toast.makeText(applicationContext,"${tvPlayer2.text} Ganaste!!",Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext, "${tvPlayer2.text} Ganaste!!", Toast.LENGTH_LONG)
+                    .show()
             }
-
             gameFinished = true
         }
     }
-
-    private fun validateCards(btn:View): Boolean {
+    private fun validateCards(btn: View): Boolean {
         var b1Val = b1.text.toString().trim()
         var b2Val = b2.text.toString().trim()
         var b3Val = b3.text.toString().trim()
@@ -200,10 +225,6 @@ class GameActivity : AppCompatActivity() {
                     winner = true
                 }
             }
-            else->{
-                    winner = false
-            }
-
 
        }
 
@@ -228,4 +249,38 @@ class GameActivity : AppCompatActivity() {
         tvPlayer2.setTextColor(if(currentPlayer==2) Color.BLACK else Color.GRAY)
 
     }
+    private fun getCellNumber(btn: Button): Int {
+        return when (btn.id) {
+            R.id.b1 -> 1
+            R.id.b2 -> 2
+            R.id.b3 -> 3
+            R.id.b4 -> 4
+            R.id.b5 -> 5
+            R.id.b6 -> 6
+            R.id.b7 -> 7
+            R.id.b8 -> 8
+            R.id.b9 -> 9
+            else -> -1
+        }
+    }
+
+    private fun getButtonByCell(cell: Int): Button {
+        return when (cell) {
+            1 -> b1
+            2 -> b2
+            3 -> b3
+            4 -> b4
+            5 -> b5
+            6 -> b6
+            7 -> b7
+            8 -> b8
+            9 -> b9
+            else -> b1
+        }
+    }
+    override fun onDestroy() {
+        super.onDestroy()
+        if (::socket.isInitialized) socket.disconnect()
+    }
+
 }
