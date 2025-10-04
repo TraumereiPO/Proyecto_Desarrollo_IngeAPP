@@ -1,0 +1,125 @@
+CREATE DATABASE DB_TASKY;
+GO
+
+USE DB_TASKY;
+GO
+
+----1.Tabla Usuario (Gestión de cuentas, perfiles y suscripcion)----
+ CREATE TABLE Usuario(
+ ID_usuario INT PRIMARY KEY IDENTITY(1,1),
+ Nombre_usuario NVARCHAR(50) NOT NULL,
+ Correo_electronico NVARCHAR(100) UNIQUE,
+ Telefono NVARCHAR(30),
+ Foto_perfil_url NVARCHAR(MAX),
+ Nivel_suscripción NVARCHAR(50) DEFAULT 'Basico'  ----Campo para la gestión de suscripción (Básico/Primium)---
+ );
+
+ ----2.Tabla Tareas----
+
+ CREATE TABLE Tareas(
+ ID_tarea INT PRIMARY KEY IDENTITY(1,1),
+ ID_usuario INT NOT NULL,
+ Titulo NVARCHAR(200) NOT NULL,
+ Descripcion Nvarchar(MAX),
+ Fecha_vencimineto DATETIME2,
+ Prioridad INT NOT NULL DEFAULT 3,  --- 1=Rojo (Urgente), 2=Amarillo (Media), 3=Verde (Baja)---
+ Estado NVARCHAR(50) NOT NULL DEFAULT 'Pendiente',
+ Es_recurrente BIT DEFAULT 0,
+ -- Campo para organizar las tareas por categoría (Ej: 'Universidad', 'Trabajo')
+Categoria  NVARCHAR(50) DEFAULT 'Personal' ,
+
+FOREIGN KEY (ID_usuario) REFERENCES Usuario(ID_usuario)  ON DELETE CASCADE
+ );
+
+ ---- 3. Tabla Eventos (Calendario y horarios)----
+
+ CREATE TABLE Eventos(
+ ID_evento INT PRIMARY KEY IDENTITY(1,1),
+ ID_usuario INT NOT NULL,
+ Nombre_evento NVARCHAR(200) NOT NULL,
+ Descripcion NVARCHAR(MAX),
+ Fecha_inicio DATETIME2 NOT NULL,
+ Fecha_fin DATETIME2,
+ Tipo NVARCHAR(50),  -- 'Clase', 'Reunión', 'Examen', 'Otro' ---
+ Color_calendario NVARCHAR(15),  ---EJ:#03DAC3---
+
+FOREIGN KEY (ID_usuario) REFERENCES Usuario(ID_usuario)  ON DELETE CASCADE
+ );
+
+
+ --- 4. Tabla Recordatorios (Notificaciones push)---
+
+ CREATE TABLE Recordatorio (
+ ID_recordatorio INT PRIMARY KEY IDENTITY(1,1),
+ ID_usuario INT NOT NULL,
+ ID_tarea INT,
+ ID_evento INT,
+ Momento_aviso DATETIME2 NOT NULL,
+ Mensaje_personalizado NVARCHAR(MAX),
+ Enviado BIT DEFAULT 0,
+
+ FOREIGN KEY (ID_usuario) REFERENCES Usuario(ID_usuario) ON DELETE CASCADE,
+ FOREIGN KEY (ID_tarea) REFERENCES Tareas(ID_tarea),
+ FOREIGN KEY (ID_evento) REFERENCES Eventos(ID_evento)
+ );
+
+ --- 5. Tabla Metas----
+
+ CREATE TABLE Metas(
+ ID_Meta INT PRIMARY KEY IDENTITY(1,1),
+ ID_usuario INT NOT NULL,
+ Titulo NVARCHAR (200) NOT NULL,
+ Descripcion NVARCHAR(MAX),
+ Objeto_cantidad FLOAT NOT NULL,
+ Unidad_medida NVARCHAR(50) NOT NULL,
+ Fecha_limite DATETIME2 NOT NULL,
+
+  FOREIGN KEY (ID_usuario) REFERENCES Usuario(ID_usuario) ON DELETE CASCADE,
+ );
+
+ --- 6. Tabla ProgresoMetas (Seguimiento de progreso de metas)---
+
+ CREATE TABLE ProgresoMetas(
+ ID_registro_progreso INT PRIMARY KEY IDENTITY(1,1),
+ ID_meta INT NOT NULL,
+ Fecha_registro DATETIME2 NOT NULL,
+ Valor_sumado FLOAT NOT NULL,
+
+   FOREIGN KEY (ID_meta ) REFERENCES Metas(ID_meta ) ON DELETE CASCADE
+ );
+
+ -- 7. Tabla Habitos---
+
+ CREATE TABLE Habitos(
+ ID_habito INT PRIMARY KEY IDENTITY(1,1),
+ ID_usuario INT NOT NULL,
+ Nombre_habito NVARCHAR(200) NOT NULL,
+ Frecuencia NVARCHAR(50) NOT NULL,
+ Dias_racha_actual INT DEFAULT 0,
+ Fecha_inicio DATETIME2 NOT NULL,
+
+FOREIGN KEY (ID_usuario) REFERENCES Usuario(ID_usuario) ON DELETE CASCADE
+ );
+
+ -- 8. Tabla RegistroHabitos (Historial de cumplimiento)--
+
+ CREATE TABLE RegistroHabitos (
+ ID_registro_habitos INT PRIMARY KEY IDENTITY(1,1),
+ ID_habito INT NOT NULL,
+ Fecha_cumplimiento DATE NOT NULL,
+ Estado NVARCHAR(50)NOT NULL,
+
+ FOREIGN KEY (ID_habito) REFERENCES Habitos(ID_habito) ON DELETE CASCADE,
+    CONSTRAINT UQ_HabitoDia UNIQUE (ID_habito, Fecha_cumplimiento)
+ );
+
+ ----9. Tabla notas---
+ CREATE TABLE Notas (
+    ID_nota INT PRIMARY KEY IDENTITY(1,1),
+    ID_usuario INT NOT NULL,
+    Contenido NVARCHAR(MAX) NOT NULL,
+    Fecha_creacion DATETIME2 NOT NULL,
+    Fijada_en_pantalla BIT DEFAULT 0,
+
+    FOREIGN KEY (ID_usuario) REFERENCES Usuario(ID_usuario) ON DELETE CASCADE
+);
