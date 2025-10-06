@@ -12,7 +12,7 @@ import io.socket.client.IO
 import io.socket.client.Socket
 import org.json.JSONObject
 
-
+import com.agenciacristal.tictacapp.SocketIO
 class GameActivity : AppCompatActivity() {
 
     private lateinit var socket: Socket
@@ -84,7 +84,13 @@ class GameActivity : AppCompatActivity() {
         nuevaPartida(tvPlayer1)
     }
     fun play(btn: View) {
+        val socket_io = SocketIO()
+        socket_io.setSocket()
+        socket_io.establishConnection()
+
+        val io = socket_io.getSocket()
         val myBtn: Button = btn as Button
+
         if (!gameFinished && myBtn.text.toString().isEmpty()) {
             val playerSymbol = if (currentPlayer == 1) "X" else "O"
             myBtn.text = playerSymbol
@@ -92,7 +98,7 @@ class GameActivity : AppCompatActivity() {
             val move = JSONObject()
                 .put("cell", getCellNumber(myBtn)) // número de la celda
                 .put("player", playerSymbol)
-            socket.emit("move", move)
+            io.emit("move", move)
 
             validateWinner(myBtn)
 
@@ -249,6 +255,7 @@ class GameActivity : AppCompatActivity() {
         tvPlayer2.setTextColor(if(currentPlayer==2) Color.BLACK else Color.GRAY)
 
     }
+
     private fun getCellNumber(btn: Button): Int {
         return when (btn.id) {
             R.id.b1 -> 1
@@ -278,9 +285,4 @@ class GameActivity : AppCompatActivity() {
             else -> b1
         }
     }
-    override fun onDestroy() {
-        super.onDestroy()
-        if (::socket.isInitialized) socket.disconnect()
-    }
-
 }

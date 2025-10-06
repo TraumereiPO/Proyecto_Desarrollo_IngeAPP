@@ -12,6 +12,7 @@ import io.socket.client.Socket
 import org.json.JSONObject
 import java.net.URISyntaxException
 
+import com.agenciacristal.tictacapp.SocketIO
 class MainActivity : AppCompatActivity() {
 
     private lateinit var socket: Socket
@@ -20,41 +21,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        try {
-            socket = IO.socket("http://10.0.2.2:3000")
-        } catch (e: URISyntaxException) {
-            Log.e("SocketError", "La URL del socket es inválida: ${e.message}")
-            e.printStackTrace()
-        }
+        val mySocket = SocketIO()
+        mySocket.setSocket()
+        mySocket.establishConnection()
 
-        socket.on(Socket.EVENT_CONNECT) {
-            Log.d("SocketInfo", "Socket conectado correctamente")
-        }
-
-        socket.on(Socket.EVENT_CONNECT_ERROR) { args ->
-            Log.e("SocketError", "Error de conexión: ${args[0]}")
-        }
-
-        socket.on(Socket.EVENT_DISCONNECT) {
-            Log.d("SocketInfo", "Socket desconectado")
-        }
-
-        socket.on("welcome") { args ->
-            if (args.isNotEmpty()) {
-                val obj = args[0]
-                if (obj is JSONObject) {
-                    val mensaje: String = obj.optString("msg", "Mensaje vacío")
-
-                    runOnUiThread{
-                        Toast.makeText(this@MainActivity,mensaje, Toast.LENGTH_LONG).show()
-                    }
-                }
+        val myOtherSocket = mySocket.getSocket()
+        myOtherSocket.on("welcome") { args ->
+            val data = args[0] as JSONObject
+            runOnUiThread {
+                Toast.makeText(this, data.getString("msg"), Toast.LENGTH_SHORT).show()
             }
         }
-        socket.connect()
-
     }
-
 
     fun nextScreen(v :View){
         val player1 = findViewById<EditText>(R.id.etPlayer1)
