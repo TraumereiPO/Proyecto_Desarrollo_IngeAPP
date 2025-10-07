@@ -1,0 +1,23 @@
+
+{
+    "name": "Entorno de desarrollo Tasky",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+    "features":{
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "20"
+        }
+    },
+    "customizations": {
+        "vscode":{
+            "Extensions":[
+                "esbenp.prettier-vscode",
+                "dbaeumer.vscode-eslint",
+                "angular.ng-template",
+                "ionic.ionic",
+"ms-vscode.vscode-typescript-next"                
+            ]
+        }
+    },
+    "postCreateCommand": "npm install-g@angular/cli@ionic/cli && npm install",
+    "remoteUser": "node"
+} 
