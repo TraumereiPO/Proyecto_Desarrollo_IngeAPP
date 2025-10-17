@@ -1,0 +1,83 @@
+body{
+    background:#5125AD;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contenedor-formulario {
+  
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h2 {
+    font-family: poppins;
+  color: #2E2E2E;
+  margin-bottom: 40px;
+}
+
+label {
+    font-family:Nunito Sans;
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  color: #2E2E2E;
+  font-weight: 600;
+  border-radius: 89cm;
+}
+
+input {
+    font-family:Nunito Sans;
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 89cm;
+  margin-bottom: 10px;
+  font-size: 14px;
+  
+}
+
+.btn-continuar {
+  margin-bottom: 40px;  font-family:Nunito Sans;
+  background-color: #6A0DAD;
+  color: white;
+  border: none;
+  padding: 9px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 89cm;
+}
+
+.btn-google {
+    font-family:Nunito Sans;
+  background-color: white;
+  color: #2E2E2E;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 89cm;
+}
+
+.registro-link {
+    font-family:Nunito Sans;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #6A0DAD;
+}
+
+.registro-link a {
+    font-family:Nunito Sans;
+    font-weight: 700;
+  color: #6A0DAD;
+  text-decoration: underline;
+}
