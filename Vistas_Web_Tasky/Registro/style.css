@@ -1,3 +1,69 @@
-body{
-    background:#5125AD;
+body {
+  background: #5125AD;
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.fondo {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-formulario {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  width: 350px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 {
+  font-family:Poppins;
+  color: #2E2E2E;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  color: #2E2E2E;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 89cm;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.btn-registrarse {
+  background-color: #6A0DAD;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 89cm;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.registro-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #6A0DAD;
+}
+
+.registro-link a {
+  font-weight: 700;
+  color: #6A0DAD;
+  text-decoration: underline;
 }

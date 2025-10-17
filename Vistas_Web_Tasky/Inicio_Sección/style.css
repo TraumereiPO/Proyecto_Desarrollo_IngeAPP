@@ -1,11 +1,19 @@
-body{
-    background:#5125AD;
-    justify-content: flex-end;
-    align-items: center;
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #5125AD;
+}
+
+
+.fondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  padding: 40px 0;
 }
 
 .contenedor-formulario {
-  
   background-color: white;
   padding: 40px;
   border-radius: 20px;
@@ -14,70 +22,91 @@ body{
   text-align: center;
 }
 
-h2 {
-    font-family: poppins;
+h1 {
+  font-family:Poppins;
   color: #2E2E2E;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  font-size: 24px;
 }
 
 label {
-    font-family:Nunito Sans;
   display: block;
   text-align: left;
   margin: 10px 0 5px;
   color: #2E2E2E;
   font-weight: 600;
-  border-radius: 89cm;
+  font-size: 14px;
 }
+
 
 input {
-    font-family:Nunito Sans;
   width: 100%;
-  padding: 9px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 89cm;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 14px;
-  
+  font-family:Nunito Sans;
 }
 
-.btn-continuar {
-  margin-bottom: 40px;  font-family:Nunito Sans;
+.btn-registrarse {
   background-color: #6A0DAD;
   color: white;
   border: none;
-  padding: 9px 10px;
-  border-radius: 8px;
+  padding: 10px;
+  border-radius: 89cm;
   font-weight: bold;
   cursor: pointer;
   width: 100%;
-  margin-bottom: 30px;
-  border-radius: 89cm;
+  margin-top: 10px;
+  font-size: 15px;
+  transition: background 0.3s;
 }
 
-.btn-google {
-    font-family:Nunito Sans;
-  background-color: white;
-  color: #2E2E2E;
-  border: 1px solid #ccc;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-  width: 100%;
-  border-radius: 89cm;
+btn-registrarse:hover {
+  background-color: #7E3DE0;
 }
+
 
 .registro-link {
-    font-family:Nunito Sans;
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 14px;
   color: #6A0DAD;
 }
 
 .registro-link a {
-    font-family:Nunito Sans;
-    font-weight: 700;
+  font-weight: 700;
   color: #6A0DAD;
   text-decoration: underline;
+}
+
+.btn-continuar {
+  background-color: #6A0DAD;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 89cm;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+  margin-bottom: 20px;
+  transition: background 0.3s;
+}
+
+.btn-google {
+  background-color: white;
+  color: #2E2E2E;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 89cm;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: background 0.3s;
 }
