@@ -15,13 +15,18 @@ body {
 }
 
 .sidebar {
-  width: 280px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 260px;
   background-color: #3A1A8C;
   padding: 30px 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
+
 
 .logo {
     font-family: Poppins ;
@@ -75,7 +80,78 @@ body {
 }
 
 .contenido {
-  flex: 1;
-  background-color: #5125AD;
+    margin-left: 300px; /* ancho del sidebar izquierda */
   padding: 40px;
+  background-color: #5125AD;
+  min-height: 100vh;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.encabezado h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fecha {
+  font-size: 14px;
+  color: #ddd;
+}
+
+/* Tarjetas de tareas */
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.tarjeta {
+  background-color: white;
+  color: #2E2E2E;
+  padding: 25px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align:left;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tarjeta span {
+  display: block;
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* Colores personalizados */
+.morado { background-color: #6A0DAD; color: white; }
+.naranja { background-color: #FF914D; color: white; }
+.verde { background-color: #4CAF50; color: white; }
+.aqua { background-color: #00BFA6; color: white; }
+
+/* Sección de eventos próximos */
+.proximo h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.evento {
+  background-color: white;
+  color: #2E2E2E;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.alerta {
+  color: #ff0000;
+  font-weight: bold;
+  display: block;
+  margin-top: 5px;
 }

@@ -21,7 +21,15 @@ background:#5125AD;
     float: inline-end;
     margin-left: 15px; 
     margin-right: 50px; 
-    
+}
+.IniciarSeccion:hover {
+    transform: scale(1.05);
+  box-shadow: 0 0 10px #F8F9FF;
+}
+
+.Registro:hover {
+    transform: scale(1.05);
+  box-shadow: 0 0 10px #250160;
 }
 
 .Registro{
@@ -54,7 +62,8 @@ body{
   border-radius: 50%;        
   float: left;               
   margin-right: 20px;
-  margin-left: 50px; 
+  margin-left: 50px;
+
 }
 
 h1{
