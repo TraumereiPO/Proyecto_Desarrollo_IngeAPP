@@ -9,15 +9,25 @@
     <title>Inicio Seción tasky </title>
  </head>
 
-   <body class="bg-violet-900" >
-     <h1>Iniciar Seción</h1>
-    <p1>Correo Electronico </p1>
-    <p1>Contraseña </p1>
-    <button></button>
-    <p1>Confirmar Contraseña</p1>
-    <button> Continuar </button>
-    <button> Continuar con Google </button>
-    <p> ¿No tienes cuenta? Registrate  </p>
+   <body>
+    <div class="fondo">
+    <div class="contenedor-formulario">
+      <h2>Iniciar Sesión</h2>
+      <form>
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" placeholder="ejemplo@correo.com">
+
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" placeholder="••••••••">
+        <br>
+        <br>
+
+        <button type="submit" class="btn-continuar">Continuar</button>
+        <button type="button" class="btn-google"><img src=""  class="logo-google">Continuar con Google</button>
+      </form>
+      <p class="registro-link">¿No tienes cuenta? <a href="#">Regístrate</a></p>
+    </div>
+  </div>
 
    </body>
  </html>
