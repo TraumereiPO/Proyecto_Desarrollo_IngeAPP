@@ -4,14 +4,14 @@ GO
 USE DB_TASKY;
 GO
 
-----1.Tabla Usuario (Gestión de cuentas, perfiles y suscripcion)----
+----1.Tabla Usuario (Gestiï¿½n de cuentas, perfiles y suscripcion)----
  CREATE TABLE Usuario(
  ID_usuario INT PRIMARY KEY IDENTITY(1,1),
  Nombre_usuario NVARCHAR(50) NOT NULL,
  Correo_electronico NVARCHAR(100) UNIQUE,
  Telefono NVARCHAR(30),
  Foto_perfil_url NVARCHAR(MAX),
- Nivel_suscripción NVARCHAR(50) DEFAULT 'Basico'  ----Campo para la gestión de suscripción (Básico/Primium)---
+ Nivel_suscripcion NVARCHAR(50) DEFAULT 'Basico'  ----Campo para la gestiï¿½n de suscripciï¿½n (Bï¿½sico/Primium)---
  );
 
  ----2.Tabla Tareas----
@@ -21,11 +21,11 @@ GO
  ID_usuario INT NOT NULL,
  Titulo NVARCHAR(200) NOT NULL,
  Descripcion Nvarchar(MAX),
- Fecha_vencimineto DATETIME2,
+ Fecha_vencimiento DATETIME2,
  Prioridad INT NOT NULL DEFAULT 3,  --- 1=Rojo (Urgente), 2=Amarillo (Media), 3=Verde (Baja)---
  Estado NVARCHAR(50) NOT NULL DEFAULT 'Pendiente',
  Es_recurrente BIT DEFAULT 0,
- -- Campo para organizar las tareas por categoría (Ej: 'Universidad', 'Trabajo')
+ -- Campo para organizar las tareas por categorï¿½a (Ej: 'Universidad', 'Trabajo')
 Categoria  NVARCHAR(50) DEFAULT 'Personal' ,
 
 FOREIGN KEY (ID_usuario) REFERENCES Usuario(ID_usuario)  ON DELETE CASCADE
@@ -40,7 +40,7 @@ FOREIGN KEY (ID_usuario) REFERENCES Usuario(ID_usuario)  ON DELETE CASCADE
  Descripcion NVARCHAR(MAX),
  Fecha_inicio DATETIME2 NOT NULL,
  Fecha_fin DATETIME2,
- Tipo NVARCHAR(50),  -- 'Clase', 'Reunión', 'Examen', 'Otro' ---
+ Tipo NVARCHAR(50),  -- 'Clase', 'Reuniï¿½n', 'Examen', 'Otro' ---
  Color_calendario NVARCHAR(15),  ---EJ:#03DAC3---
 
 FOREIGN KEY (ID_usuario) REFERENCES Usuario(ID_usuario)  ON DELETE CASCADE
