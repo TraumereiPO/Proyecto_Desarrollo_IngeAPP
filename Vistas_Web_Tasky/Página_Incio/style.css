@@ -1,7 +1,81 @@
-body{
+ody{
     background:#5125AD;
 }
 
-h1{
-    
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #5125AD;
+  color: white;
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 280px;
+  background-color: #3A1A8C;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.logo {
+    font-family: Poppins ;
+    font-size:120;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.usuario {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.usuario span {
+  font-size: 14px;
+}
+
+.menu {
+    font-size:50;
+    font-family:Nunito Sans;
+    font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.item {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.item:hover {
+  background-color: #6A0DAD;
+}
+
+.activo {
+  background-color: #6A0DAD;
+}
+
+.contenido {
+  flex: 1;
+  background-color: #5125AD;
+  padding: 40px;
 }
