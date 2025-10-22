@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.agenciacristal.tictacapp-mergeDebugResources-26:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin UNCSM\\.gradle\\caches\\8.13\\transforms\\2f7f396a40a651a5b2dbc0dd0609e3a9\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

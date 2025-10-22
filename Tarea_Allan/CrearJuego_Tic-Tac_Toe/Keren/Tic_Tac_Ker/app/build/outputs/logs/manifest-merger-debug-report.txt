@@ -1,0 +1,263 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:2:1-35:12
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\444d6c16e96d9863dfa38366df2bd256\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\8f0dbb66c386f5f676507b535f907aa7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\e8ffffaa2f02de83b28cd9d35085e618\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2f7f396a40a651a5b2dbc0dd0609e3a9\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\f5e47e1d84cab3719d276c6faa301029\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\ab92957f29a62717ef20cd736b7c22f0\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\f2cc413a0af01a1fc0fbf6ef1d881d72\transformed\activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\bbc6d79e1d88305a32de6adfe9ab6491\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\4fa32ceadf866975f4e2937675be85e4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\4bcf3a46e715bb83f2a28dae3c363d3c\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\055566302610071b1b0489333c9b3102\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\ab3298a09e234297d7d4bf1763e3cb34\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\5123d917ec9a5fa96ebc04f7de069950\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\88ae5e878ce70071b96a0c0dcf3e699f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\b7a0c06195faa7bbc1309febe7a8f6ee\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2b9ee867f4b26d5e83b317e7f5a86b70\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\1f80c959c4e56eead56488ff4c1e5462\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\5b2d3d12c66c745e37452370c8f67c1c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\0862ac3eaad95cdd1846bae9ffb61c10\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2cb042fdf43dc7ec0bab4db30ad6ce3d\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\33edc074ca8342b41ce3c82df5b18067\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\f7bdbed534f24f6a5b8ed1e4b39769d1\transformed\core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\7ed4aca71793c1e700d027fe84676fc6\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\947344255a41d227c9b816ac9ea3e25d\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\636c95bd3f0deba182b4cb7e26e34ab2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\cf3694702c6829430e84d86dc80139b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\7e0dec3709076fa91194790299f3b230\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\05673f041eb2bf906dafe043d40ff4f9\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\a9d70d8bd537e8b7d2b8182499e24e26\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\0a89733c81cbb84ac39351b982a943da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6d90047bbd9b9822d7f0fc72a4806cd4\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\a017b59f967e26e605fd8d20e31f441a\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2186279ff3e5d617018886eba2040916\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\fcdc448ed17a38bded41501ade167070\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\a814694573d36bb73f85b4bc8d759a60\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\3ccd75a8f64a768978d8e229552744f8\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\ac2a4d04937080299546fa850db4417d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\9e3e7486984fb9a1eaf535cb1d58f344\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:7:5-33:19
+INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:7:5-33:19
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\444d6c16e96d9863dfa38366df2bd256\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\444d6c16e96d9863dfa38366df2bd256\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\8f0dbb66c386f5f676507b535f907aa7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\8f0dbb66c386f5f676507b535f907aa7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\cf3694702c6829430e84d86dc80139b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\cf3694702c6829430e84d86dc80139b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\a9d70d8bd537e8b7d2b8182499e24e26\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\a9d70d8bd537e8b7d2b8182499e24e26\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\0a89733c81cbb84ac39351b982a943da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\0a89733c81cbb84ac39351b982a943da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:10:9-54
+	android:roundIcon
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:14:9-54
+	tools:targetApi
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:17:9-29
+	android:icon
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:16:9-47
+	android:dataExtractionRules
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:9:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:11:9-44
+activity#com.agenciacristal.tictacapp.GameActivity
+ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:19:13-41
+activity#com.agenciacristal.tictacapp.ResultsActivity
+ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:22:13-44
+activity#com.agenciacristal.tictacapp.MainActivity
+ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:24:9-32:20
+	android:exported
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:25:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml:30:27-74
+uses-sdk
+INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\444d6c16e96d9863dfa38366df2bd256\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\444d6c16e96d9863dfa38366df2bd256\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\8f0dbb66c386f5f676507b535f907aa7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\8f0dbb66c386f5f676507b535f907aa7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\e8ffffaa2f02de83b28cd9d35085e618\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\e8ffffaa2f02de83b28cd9d35085e618\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2f7f396a40a651a5b2dbc0dd0609e3a9\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2f7f396a40a651a5b2dbc0dd0609e3a9\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\f5e47e1d84cab3719d276c6faa301029\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\f5e47e1d84cab3719d276c6faa301029\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\ab92957f29a62717ef20cd736b7c22f0\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\ab92957f29a62717ef20cd736b7c22f0\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\f2cc413a0af01a1fc0fbf6ef1d881d72\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\f2cc413a0af01a1fc0fbf6ef1d881d72\transformed\activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\bbc6d79e1d88305a32de6adfe9ab6491\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\bbc6d79e1d88305a32de6adfe9ab6491\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\4fa32ceadf866975f4e2937675be85e4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\4fa32ceadf866975f4e2937675be85e4\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\4bcf3a46e715bb83f2a28dae3c363d3c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\4bcf3a46e715bb83f2a28dae3c363d3c\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\055566302610071b1b0489333c9b3102\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\055566302610071b1b0489333c9b3102\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\ab3298a09e234297d7d4bf1763e3cb34\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\ab3298a09e234297d7d4bf1763e3cb34\transformed\lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\5123d917ec9a5fa96ebc04f7de069950\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\5123d917ec9a5fa96ebc04f7de069950\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\88ae5e878ce70071b96a0c0dcf3e699f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\88ae5e878ce70071b96a0c0dcf3e699f\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\b7a0c06195faa7bbc1309febe7a8f6ee\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\b7a0c06195faa7bbc1309febe7a8f6ee\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2b9ee867f4b26d5e83b317e7f5a86b70\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2b9ee867f4b26d5e83b317e7f5a86b70\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\1f80c959c4e56eead56488ff4c1e5462\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\1f80c959c4e56eead56488ff4c1e5462\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\5b2d3d12c66c745e37452370c8f67c1c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\5b2d3d12c66c745e37452370c8f67c1c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\0862ac3eaad95cdd1846bae9ffb61c10\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\0862ac3eaad95cdd1846bae9ffb61c10\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2cb042fdf43dc7ec0bab4db30ad6ce3d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2cb042fdf43dc7ec0bab4db30ad6ce3d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\33edc074ca8342b41ce3c82df5b18067\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\33edc074ca8342b41ce3c82df5b18067\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\f7bdbed534f24f6a5b8ed1e4b39769d1\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\f7bdbed534f24f6a5b8ed1e4b39769d1\transformed\core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\7ed4aca71793c1e700d027fe84676fc6\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\7ed4aca71793c1e700d027fe84676fc6\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\947344255a41d227c9b816ac9ea3e25d\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\947344255a41d227c9b816ac9ea3e25d\transformed\annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\636c95bd3f0deba182b4cb7e26e34ab2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\636c95bd3f0deba182b4cb7e26e34ab2\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\cf3694702c6829430e84d86dc80139b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\cf3694702c6829430e84d86dc80139b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\7e0dec3709076fa91194790299f3b230\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\7e0dec3709076fa91194790299f3b230\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\05673f041eb2bf906dafe043d40ff4f9\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\05673f041eb2bf906dafe043d40ff4f9\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\a9d70d8bd537e8b7d2b8182499e24e26\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\a9d70d8bd537e8b7d2b8182499e24e26\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\0a89733c81cbb84ac39351b982a943da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\0a89733c81cbb84ac39351b982a943da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6d90047bbd9b9822d7f0fc72a4806cd4\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6d90047bbd9b9822d7f0fc72a4806cd4\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\a017b59f967e26e605fd8d20e31f441a\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\a017b59f967e26e605fd8d20e31f441a\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2186279ff3e5d617018886eba2040916\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2186279ff3e5d617018886eba2040916\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\fcdc448ed17a38bded41501ade167070\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\fcdc448ed17a38bded41501ade167070\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\a814694573d36bb73f85b4bc8d759a60\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\a814694573d36bb73f85b4bc8d759a60\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\3ccd75a8f64a768978d8e229552744f8\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\3ccd75a8f64a768978d8e229552744f8\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\ac2a4d04937080299546fa850db4417d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\ac2a4d04937080299546fa850db4417d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\9e3e7486984fb9a1eaf535cb1d58f344\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\9e3e7486984fb9a1eaf535cb1d58f344\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Admin UNCSM\Proyecto_Desarrollo_IngeAPP\Tarea_Allan\CrearJuego_Tic-Tac_Toe\Keren\Tic_Tac_Ker\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\cf3694702c6829430e84d86dc80139b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\cf3694702c6829430e84d86dc80139b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\0a89733c81cbb84ac39351b982a943da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\0a89733c81cbb84ac39351b982a943da\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\2d7a0904470f6866b264db2016a5c2e8\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.agenciacristal.tictacapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.agenciacristal.tictacapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\6f637ec291d8b84a0fd06947ac247994\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\cf3694702c6829430e84d86dc80139b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\cf3694702c6829430e84d86dc80139b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Admin UNCSM\.gradle\caches\8.13\transforms\cf3694702c6829430e84d86dc80139b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78

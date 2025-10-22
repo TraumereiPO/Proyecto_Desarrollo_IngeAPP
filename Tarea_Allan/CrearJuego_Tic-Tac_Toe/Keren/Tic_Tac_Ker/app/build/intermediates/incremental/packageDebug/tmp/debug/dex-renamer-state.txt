@@ -1,0 +1,10 @@
+#Tue Oct 21 08:43:41 CST 2025
+base.0=C\:\\Users\\Admin UNCSM\\Proyecto_Desarrollo_IngeAPP\\Tarea_Allan\\CrearJuego_Tic-Tac_Toe\\Keren\\Tic_Tac_Ker\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\Admin UNCSM\\Proyecto_Desarrollo_IngeAPP\\Tarea_Allan\\CrearJuego_Tic-Tac_Toe\\Keren\\Tic_Tac_Ker\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\Admin UNCSM\\Proyecto_Desarrollo_IngeAPP\\Tarea_Allan\\CrearJuego_Tic-Tac_Toe\\Keren\\Tic_Tac_Ker\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=11/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

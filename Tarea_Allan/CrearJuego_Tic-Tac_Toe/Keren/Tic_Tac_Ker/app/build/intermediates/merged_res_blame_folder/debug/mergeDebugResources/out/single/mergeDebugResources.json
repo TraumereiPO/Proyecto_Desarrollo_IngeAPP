@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/drawable_fondo.png.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/drawable/fondo.png"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/xml_backup_rules.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/drawable_line.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/drawable/line.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/drawable_white_box.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/drawable/white_box.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/drawable_icon_close_24.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/drawable/icon_close_24.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/layout_activity_main.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/drawable_icon_circle_24.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/drawable/icon_circle_24.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/xml_data_extraction_rules.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/layout_activity_results.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/layout/activity_results.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/layout_activity_game.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/layout/activity_game.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.agenciacristal.tictacapp-debug-28:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.agenciacristal.tictacapp-main-30:/mipmap-xxhdpi/ic_launcher_round.webp"
+    }
+]

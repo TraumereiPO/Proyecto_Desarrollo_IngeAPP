@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.agenciacristal.tictacapp-mergeDebugResources-26:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin UNCSM\\.gradle\\caches\\8.13\\transforms\\2f7f396a40a651a5b2dbc0dd0609e3a9\\transformed\\appcompat-1.6.1\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
