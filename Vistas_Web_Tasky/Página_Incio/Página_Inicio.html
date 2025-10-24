@@ -1,62 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Página Inico tasky</title>
+    <title>Dashboard - Tasky</title>
 </head>
 <body>
-  <div class="layout">
-    <aside class="sidebar">
-      <div class="logo">Tasky!</div>
-      <div class="usuario">
-        <div class="avatar"></div>
-        <span>Nombre Apellido</span>
-      </div>
-      <nav class="menu">
-        <a href="#" class="item ctivo "> INICIO</a>
-        <a href="#" class="item ">CALENDARIO</a>
-        <a href="#" class="item"> NOTAS</a>
-        <a href="#" class="item a "> METAS</a>
-        <a href="#" class="item"> ESTADÍSTICAS</a>
-      </nav>
-    </aside>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="logo">Tasky!</div>
+            <div class="usuario">
+                <div class="avatar">NA</div>
+                <div class="usuario-info">
+                    <div class="usuario-nombre">Nombre Apellido</div>
+                    <div class="usuario-rol">Usuario Premium</div>
+                </div>
+            </div>
+            <nav class="menu">
+                <a href="#" class="item activo">
+                    <i class="fas fa-home"></i>INICIO
+                </a>
+                <a href="#" class="item">
+                    <i class="fas fa-calendar-alt"></i>CALENDARIO
+                </a>
+                <a href="#" class="item">
+                    <i class="fas fa-sticky-note"></i>NOTAS
+                </a>
+                <a href="#" class="item">
+                    <i class="fas fa-bullseye"></i>METAS
+                </a>
+                <a href="#" class="item">
+                    <i class="fas fa-chart-bar"></i>ESTADÍSTICAS
+                </a>
+            </nav>
+        </aside>
 
-    <main class="contenido"> <!-- contenido principal (Lado Derecho) -->
-     <div class="encabezado">
-  <h2>Hola, Usuario  👋 ¿Qué quieres lograr hoy?</h2>
-  <span class="fecha">Oct 17, 2025</span>
-</div>
+        <main class="contenido">
+            <div class="encabezado">
+                <h2>Hola, Usuario 👋 ¿Qué quieres lograr hoy?</h2>
+                <span class="fecha">Oct 17, 2025</span>
+            </div>
 
-<div class="tarjetas">
-  <div class="tarjeta escuela morado">Escuela<br><span>15 Tareas</span></div>
-  <div class="tarjeta escuela naranja">Escuela<br><span>15 Tareas</span></div>
-  <div class="tarjeta fiesta verde">Fiesta<br><span>8 Tareas</span></div>
-  <div class="tarjeta fiesta aqua">Fiesta<br><span>8 Tareas</span></div>
-</div>
+            <div class="tarjetas">
+                <div class="tarjeta morado">
+                    <strong>Escuela</strong>
+                    <span>15 Tareas Pendientes</span>
+                </div>
+                <div class="tarjeta naranja">
+                    <strong>Trabajo</strong>
+                    <span>7 Proyectos Activos</span>
+                </div>
+                <div class="tarjeta verde">
+                    <strong>Personal</strong>
+                    <span>5 Metas en Progreso</span>
+                </div>
+                <div class="tarjeta aqua">
+                    <strong>Fiesta</strong>
+                    <span>8 Tareas por Hacer</span>
+                </div>
+            </div>
 
-<div class="proximo">
-  <h3>PRÓXIMO</h3>
-  <div class="evento">
-    <strong>Examen de Cálculo</strong><br>
-    08:00 am - 09:30 am<br>
-    <span class="alerta">FALTA 9 HORAS!</span>
-  </div>
-  <div class="evento">
-    <strong>Cita con el Doctor </strong><br>
-    11:00 am - 12:00 pm<br>
-    <span class="alerta">FALTA 9 HORAS!</span>
-  </div>
-  <div class="evento">
-    <strong>Cumpleaños de Alguien </strong><br>
-    <span class="alerta">FALTA 2 DÍAS!</span>
-  </div>
-</div>
-    </main>
-          
-  
+            <div class="proximo">
+                <h3>PRÓXIMO</h3>
+                <div class="evento">
+                    <strong>Examen de Cálculo</strong>
+                    <div class="hora">08:00 am - 09:30 am</div>
+                    <span class="alerta">FALTA 9 HORAS!</span>
+                </div>
+                <div class="evento">
+                    <strong>Cita con el Doctor</strong>
+                    <div class="hora">11:00 am - 12:00 pm</div>
+                    <span class="alerta">FALTA 9 HORAS!</span>
+                </div>
+                <div class="evento">
+                    <strong>Cumpleaños de Alguien</strong>
+                    <div class="hora">Todo el día</div>
+                    <span class="alerta">FALTA 2 DÍAS!</span>
+                </div>
+            </div>
+
+            <div class="tareas-recientes">
+                <h3>TAREAS RECIENTES</h3>
+                <div class="lista-tareas">
+                    <div class="tarea">
+                        <div class="tarea-info">
+                            <div class="tarea-titulo">Terminar proyecto de matemáticas</div>
+                            <div class="tarea-categoria escuela">Escuela</div>
+                        </div>
+                        <div class="tarea-estado pendiente">Pendiente</div>
+                    </div>
+                    <div class="tarea">
+                        <div class="tarea-info">
+                            <div class="tarea-titulo">Comprar regalo de cumpleaños</div>
+                            <div class="tarea-categoria personal">Personal</div>
+                        </div>
+                        <div class="tarea-estado completada">Completada</div>
+                    </div>
+                    <div class="tarea">
+                        <div class="tarea-info">
+                            <div class="tarea-titulo">Preparar presentación del trabajo</div>
+                            <div class="tarea-categoria trabajo">Trabajo</div>
+                        </div>
+                        <div class="tarea-estado progreso">En Progreso</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>

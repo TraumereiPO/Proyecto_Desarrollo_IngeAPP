@@ -36,7 +36,7 @@ header {
 }
 
 .logo {
-    width: 120px;
+    width: 200px;
     height: auto;
 }
 
@@ -47,7 +47,7 @@ header {
 
 /* Botones */
 .IniciarSeccion, .Registro {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 16px;
     border: none;
     padding: 12px 32px;
@@ -69,20 +69,20 @@ header {
 
 .IniciarSeccion:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(248, 249, 255, 0.3);
+   
 }
 
 .Registro:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(37, 1, 96, 0.4);
+   
 }
 
 /* Contenido principal */
 .contenido-principal {
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
-    padding: 40px 60px;
+    padding: 40px 90px;
     min-height: calc(100vh - 100px);
     gap: 60px;
     position: relative;
@@ -98,8 +98,8 @@ header {
 }
 
 .circulo {
-    width: 500px;
-    height: 500px;
+    width: 750px;
+    height: 750px;
     background-color: var(--accent);
     border-radius: 50%;
     position: absolute;
@@ -110,13 +110,14 @@ header {
 }
 
 .ilustracion {
-    width: 400px;
-    height: 400px;
+    width: 750px;
+    height: 750px;
     position: relative;
-    z-index: 2;
+    z-index: 3;
     object-fit: contain;
     border-radius: 20px;
 }
+
 
 .contenedor-derecho {
     width: 50%;
@@ -126,38 +127,35 @@ header {
 
 /* Textos - Réplica exacta del diseño */
 h1 {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins';
     font-size: 48px;
     font-weight: 700;
-    color: var(--light);
-    line-height: 1.2;
     margin-bottom: 20px;
     text-align: left;
 }
 
 .resaltada {
-    font-family: 'Poppins', sans-serif;
-    color: var(--light);
+    font-family: 'Poppins';
     font-size: 52px;
     font-weight: 700;
     display: inline-block;
 }
 
 h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito Sans' ;
     font-size: 24px;
-    color: var(--text-light);
     margin-bottom: 30px;
-    font-weight: 400;
+    font-weight:700;
     text-align: left;
     line-height: 1.4;
 }
 
 .info {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Nunito Sans';
+    font-weight: 600;
     font-weight: 400;
     color: var(--light);
-    text-align: left;
+    text-align:justify;
     font-size: 18px;
     line-height: 1.7;
     max-width: 100%;
@@ -166,13 +164,6 @@ h2 {
 /* Efectos visuales adicionales para coincidir con la imagen */
 .contenedor-derecho h1 {
     background: linear-gradient(135deg, #F8F9FA 0%, #E2E6EA 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.resaltada {
-    background: linear-gradient(135deg, #F8F9FA 0%, #C6A2FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -307,8 +298,8 @@ h2 {
     }
     
     .circulo {
-        width: 250px;
-        height: 250px;
+        width: 800px;
+        height: 800px;
     }
     
     .ilustracion {
