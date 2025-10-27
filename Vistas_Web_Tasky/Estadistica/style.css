@@ -135,3 +135,73 @@ body {
     background: var(--accent);
     box-shadow: 0 4px 12px rgba(106, 13, 173, 0.4);
 }
+
+
+
+
+
+@media (max-width: 1024px) {
+    .sidebar {
+        width: 240px;
+    }
+    
+    .contenido {
+        margin-left: 240px;
+        padding: 30px;
+    }
+    
+    .tarjetas {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    .contenido {
+        margin-left: 0;
+        padding: 25px;
+    }
+    
+    .encabezado {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .tarjetas {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .tarjetas {
+        grid-template-columns: 1fr;
+    }
+    
+    .contenido {
+        padding: 20px;
+    }
+    
+    .proximo, .tareas-recientes {
+        padding: 20px;
+    }
+    
+    .tarea {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .tarea-estado {
+        align-self: flex-end;
+    }
+}

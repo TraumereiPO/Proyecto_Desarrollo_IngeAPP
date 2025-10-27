@@ -361,27 +361,6 @@ body {
     color: #FBBF24;
 }
 
-.tarea-estado {
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.pendiente {
-    background: rgba(239, 68, 68, 0.2);
-    color: #FCA5A5;
-}
-
-.completada {
-    background: rgba(16, 185, 129, 0.2);
-    color: #34D399;
-}
-
-.progreso {
-    background: rgba(59, 130, 246, 0.2);
-    color: #93C5FD;
-}
 
 /* Responsive */
 @media (max-width: 1024px) {
