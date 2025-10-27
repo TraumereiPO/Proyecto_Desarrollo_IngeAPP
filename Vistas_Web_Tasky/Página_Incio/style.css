@@ -49,7 +49,9 @@ body {
     display: flex;
     align-items:center;
     gap: 10px;
+    
 }
+
 
 .logo:before {
     background: var(--accent);
@@ -160,6 +162,9 @@ body {
 
 .fecha {
     background: var(--secondary);
+    font-size: 60;
+    font-family: Poppins ;
+    
     padding: 10px 20px;
     border-radius: 12px;
     font-weight: 600;
@@ -171,12 +176,12 @@ body {
 .tarjetas {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 20px;
-    margin-bottom: 40px;
+    gap: 10px;
+    margin-bottom: 25px;
 }
 
 .tarjeta {
-    padding: 25px;
+    padding: 30px;
     border-radius: 16px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
@@ -191,12 +196,12 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 5px;
+    height: 15px;
 }
 
 .tarjeta:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 30px 25px rgba(219, 209, 209, 0);
 }
 
 .morado:before { background: linear-gradient(90deg, #8B5CF6, #A78BFA); }
@@ -210,16 +215,12 @@ body {
 .aqua { background: rgba(6, 182, 212, 0.15); }
 
 .tarjeta strong {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-family: 'Poppins';
+    font-size: 23px;
     display: block;
     margin-bottom: 10px;
 }
 
-.tarjeta span {
-    font-size: 15px;
-    color: var(--text-light);
-}
 
 /* Próximos Eventos */
 .proximo {
@@ -231,9 +232,9 @@ body {
 }
 
 .proximo h3 {
-    font-family: 'Nunito Sans';
+    font-family: 'Poppins';
     font-weight: 900;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 25px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -242,13 +243,14 @@ body {
     gap: 10px;
 }
 
+/* fondo de eventos proximo */
 .evento {
     background: rgba(255, 255, 255, 0.05);
-    padding: 20px;
+    padding: 15px;
     border-radius: 12px;
     margin-bottom: 15px;
     transition: all 0.3s ease;
-    border-left: 4px solid var(--accent);
+    border-left: 15px solid var(--accent);
 }
 
 .evento:hover {
@@ -257,26 +259,27 @@ body {
 }
 
 .evento strong {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-family: 'Nunito Sans';
+    font-size: 19px;
     display: block;
     margin-bottom: 8px;
 }
 
 .evento .hora {
-    font-size: 14px;
-    color: var(--text-light);
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
 .alerta {
-    display: inline-block;
-    padding: 5px 12px;
+    display: inlin-block;
+    font-family:Poppins ;
+    font-weight: 600;
+    padding: 5px 10px;
     background: var(--danger);
     border-radius: 20px;
     font-size: 12px;
-    font-weight: 600;
 }
+
 
 /* Tareas Recientes */
 .tareas-recientes {
@@ -284,12 +287,13 @@ body {
     padding: 30px;
     border-radius: 16px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    
 }
 
 .tareas-recientes h3 {
-    font-family: 'Nunito Sans';
+    font-family: 'Poppins';
     font-weight:900;
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 25px;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -303,16 +307,19 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    
 }
 
 .tarea {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: rgba(255, 255, 255, 0.05);
-    padding: 18px;
-    border-radius: 12px;
+    padding: 30px;
     transition: all 0.3s ease;
+    border-radius: 12px;
+    border-left: 15px solid var(--accent);
 }
 
 .tarea:hover {
@@ -325,7 +332,9 @@ body {
 }
 
 .tarea-titulo {
-    font-weight: 600;
+    font-family: Nunito Sans;
+    font-size: 19px;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 
@@ -333,7 +342,7 @@ body {
     display: inline-block;
     padding: 3px 10px;
     border-radius: 12px;
-    font-size: 12px;
+    font-size:20 px;
     font-weight: 600;
 }
 
