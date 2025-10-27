@@ -43,18 +43,15 @@ body {
 }
 
 .logo {
-    font-family: 'Poppins', sans-serif;
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 40px;
-    color: var(--light);
     display: flex;
-    align-items: center;
+    align-items:center;
     gap: 10px;
 }
 
 .logo:before {
-    content: "✓";
     background: var(--accent);
     width: 36px;
     height: 36px;
@@ -220,7 +217,7 @@ body {
 }
 
 .tarjeta span {
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text-light);
 }
 
@@ -234,7 +231,8 @@ body {
 }
 
 .proximo h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito Sans';
+    font-weight: 900;
     font-size: 20px;
     margin-bottom: 25px;
     padding-bottom: 15px;
@@ -242,11 +240,6 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.proximo h3:before {
-    content: "⏰";
-    font-size: 18px;
 }
 
 .evento {
@@ -294,7 +287,8 @@ body {
 }
 
 .tareas-recientes h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito Sans';
+    font-weight:900;
     font-size: 20px;
     margin-bottom: 25px;
     padding-bottom: 15px;
@@ -304,10 +298,6 @@ body {
     gap: 10px;
 }
 
-.tareas-recientes h3:before {
-    content: "📝";
-    font-size: 18px;
-}
 
 .lista-tareas {
     display: flex;

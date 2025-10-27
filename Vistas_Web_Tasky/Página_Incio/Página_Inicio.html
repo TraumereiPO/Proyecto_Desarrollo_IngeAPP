@@ -12,7 +12,9 @@
 <body>
     <div class="layout">
         <aside class="sidebar">
-            <div class="logo">Tasky!</div>
+            <div class="logo">
+                <img src="../img/logo.png" alt="Logo" width="150" height="50">
+            </div>
             <div class="usuario">
                 <div class="avatar">NA</div>
                 <div class="usuario-info">
@@ -42,7 +44,13 @@
         <main class="contenido">
             <div class="encabezado">
                 <h2>Hola, Usuario 👋 ¿Qué quieres lograr hoy?</h2>
-                <span class="fecha">Oct 17, 2025</span>
+                <span class="fecha"></span>
+                <script>
+                     const fechaElemento = document.querySelector('.fecha');
+                     const opciones = { month: 'short', day: 'numeric', year: 'numeric' };
+                     const fechaActual = new Date().toLocaleDateString('en-US', opciones);
+                     fechaElemento.textContent = fechaActual;
+                </script>
             </div>
 
             <div class="tarjetas">
