@@ -234,7 +234,7 @@ body {
     border-radius: 12px;
     margin-bottom: 15px;
     transition: all 0.3s ease;
-    border-left: 12px solid var(--accent);
+    border-left: 12px solid #EF4444; /*Franja de alerta ---   para tarea:border-left: 12px solid var(--accent);*/
     display: flex;
     justify-content: space-between;
     align-items: center;
