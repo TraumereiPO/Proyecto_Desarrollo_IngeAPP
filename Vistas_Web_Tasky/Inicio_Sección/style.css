@@ -7,33 +7,27 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     background-color: #5125AD;
-    margin: 0;
-}
-
-.fondo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 20px;
 }
 
 .contenedor-formulario {
-    background-color: white;
+    background: white;
     padding: 40px;
     border-radius: 20px;
+    max-width: 450px;
     width: 100%;
-    max-width: 400px;
     box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    text-align: center;
 }
 
 h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     color: #2E2E2E;
     margin-bottom: 30px;
-    font-size: 24px;
-    font-weight: 700;
+    text-align: center;
 }
 
 .campo {
@@ -42,12 +36,9 @@ h1 {
 
 label {
     display: block;
-    text-align: left;
     margin-bottom: 8px;
     color: #2E2E2E;
     font-weight: 600;
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
 }
 
 input {
@@ -56,27 +47,24 @@ input {
     border: 1px solid #ccc;
     border-radius: 25px;
     font-size: 14px;
-    font-family: 'Nunito Sans', sans-serif;
     transition: all 0.3s ease;
 }
 
 input:focus {
     outline: none;
     border-color: #6A0DAD;
-    box-shadow: 0 0 5px rgba(106, 13, 173, 0.3);
+    box-shadow: 0 0 0 3px rgba(106, 13, 173, 0.1);
 }
 
-/* Contenedor para el campo de contraseña */
-.password-container {
+.contenedor-contrasena {
     position: relative;
-    width: 100%;
 }
 
-.password-container input {
-    padding-right: 50px; /* Espacio para el botón del ojo */
+.contenedor-contrasena input {
+    padding-right: 50px;
 }
 
-.toggle-password {
+.boton-ojo {
     position: absolute;
     right: 12px;
     top: 50%;
@@ -84,113 +72,90 @@ input:focus {
     background: none;
     border: none;
     cursor: pointer;
-    padding: 5px;
+    color: #666;
+    transition: all 0.3s ease;
     border-radius: 50%;
-    transition: background-color 0.3s ease;
+    width: 35px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35px;
-    height: 35px;
-    color: #666;
 }
 
-.toggle-password:hover {
+.boton-ojo:hover {
     background-color: #f0f0f0;
     color: #6A0DAD;
 }
 
-.eye-icon {
-    pointer-events: none;
+.mensaje-contrasena {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
 }
 
-.btn-continuar {
-    background-color: #6A0DAD;
+.boton-registrarse {
+    background: #6A0DAD;
     color: white;
     border: none;
     padding: 12px;
     border-radius: 25px;
-    font-weight: bold;
-    cursor: pointer;
     width: 100%;
-    font-size: 15px;
-    margin-bottom: 15px;
-    transition: all 0.3s ease;
+    margin: 10px 0;
+    cursor: pointer;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
 
-.btn-continuar:hover {
-    background-color: #7E3DE0;
+.boton-registrarse:hover {
+    background: #7E3DE0;
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(106, 13, 173, 0.3);
 }
 
-.btn-google {
-    background-color: white;
-    color: #2E2E2E;
+.boton-google {
+    background: white;
     border: 1px solid #ccc;
     padding: 12px;
     border-radius: 25px;
-    font-weight: bold;
-    cursor: pointer;
     width: 100%;
-    font-size: 15px;
+    margin: 10px 0;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    transition: all 0.3s ease;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: all 0.3s ease;
 }
 
-.btn-google:hover {
-    background-color: #f8f9fa;
+.boton-google:hover {
+    background: #f8f9fa;
+    border-color: #6A0DAD;
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.icono {
-    width: 20px;
-    height: 20px;
-}
-
-.registro-link {
+.enlace-registro {
+    text-align: center;
     margin-top: 25px;
-    font-size: 14px;
-    color: #2E2E2E;
-    font-family: 'Nunito Sans', sans-serif;
 }
 
-.registro-link a {
-    font-weight: 700;
+.enlace-registro a {
     color: #6A0DAD;
     text-decoration: none;
+    font-weight: 700;
     transition: color 0.3s ease;
 }
 
-.registro-link a:hover {
-    text-decoration: underline;
+.enlace-registro a:hover {
     color: #7E3DE0;
+    text-decoration: underline;
 }
 
-/* Estilos responsivos */
 @media (max-width: 480px) {
-    .fondo {
-        padding: 15px;
-    }
-    
     .contenedor-formulario {
         padding: 30px 25px;
-    }
-    
-    h1 {
-        font-size: 22px;
-        margin-bottom: 25px;
-    }
-    
-    input, .btn-continuar, .btn-google {
-        padding: 10px 14px;
-    }
-    
-    .toggle-password {
-        right: 8px;
     }
 }
