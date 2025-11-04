@@ -1,0 +1,65 @@
+__________________________________________________
+
+Tabla de Usuarios
+CREATE TABLE Usuarios (
+    id_usuario INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    correo_electronico VARCHAR(120) NOT NULL UNIQUE,
+    contraseña VARCHAR(100) NOT NULL,  -- (mejor aumentar longitud si luego encriptás)
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+__________________________________________________
+
+Tabla de Metas
+CREATE TABLE Metas (
+    id_meta INT AUTO_INCREMENT PRIMARY KEY,
+    id_usuario INT NOT NULL,
+    titulo VARCHAR(50) NOT NULL,
+    descripcion VARCHAR(150),
+    fecha_limite DATE,
+    progreso DECIMAL(5,2) DEFAULT 0.00,
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (id_usuario) REFERENCES Usuarios(id_usuario)
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+__________________________________________________
+
+Tabla de Tareas
+CREATE TABLE Tareas (
+    id_tarea INT AUTO_INCREMENT PRIMARY KEY,
+    id_meta INT NOT NULL,  -- siempre pertenece a una meta (puede ser la meta "NoMeta")
+    titulo VARCHAR(50) NOT NULL,
+    descripcion VARCHAR(150),
+    fecha_limite DATE,
+    hora_inicio TIME,
+    hora_fin TIME,
+    fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (id_meta) REFERENCES Metas(id_meta)
+        ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+__________________________________________________
+
+Tabla de Días (para normalizar los días de la semana)
+CREATE TABLE Dias (
+    id_dia INT AUTO_INCREMENT PRIMARY KEY,
+    nombre_dia ENUM('Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo') UNIQUE
+);
+__________________________________________________
+
+Tabla de Horarios
+CREATE TABLE Horarios (
+    id_horario INT AUTO_INCREMENT PRIMARY KEY,
+    id_usuario INT NOT NULL,
+    id_dia INT NOT NULL,
+    titulo VARCHAR(50) NOT NULL,
+    hora_inicio TIME NOT NULL,
+    hora_fin TIME NOT NULL,
+    tipo ENUM('fijo', 'recurrente') DEFAULT 'fijo',
+    FOREIGN KEY (id_usuario) REFERENCES Usuarios(id_usuario)
+        ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (id_dia) REFERENCES Dias(id_dia)
+        ON DELETE RESTRICT ON UPDATE CASCADE
+);
+

@@ -1,0 +1,67 @@
+Menú de Inicio.
+1. Mostrar Tareas a punto de terminar
+2. Mostrar tareas mas recientes
+3. Menú de Vistas (Web - Vista Lateral, Móvil - Vista Inferior)
+4. Menú de Categorías (Tal Vez)
+Navbar
+1. Botón para tu perfil
+2. Texto para saludar a usuario
+3. Fecha actual
+
+Calendario
+Tendrá dos secciones principales
+Horario estático
+1. Vista tipo cuadrícula con los días lunes a domingo.
+2. Aquí se muestran las tareas diarias fijas o recurrentes (por ejemplo, “Estudiar 30 min” cada martes).
+3. Estas tareas se pueden guardar en una tabla separada, ya que son repetitivas.
+
+Calendario dinámico.
+1. día: Muestra tareas del día actual (o de otro día seleccionado). Si no hay tareas, muestra bandeja vacía.
+2. Mes: Muestra todas las tareas con fecha dentro del mes actual.
+3. Año: Muestra todas las tareas con fecha dentro del año actual.
+esta función tal vez se realice.
+
+Tareas
+1. Anadir tareas
+2. Eliminar tareas
+3. Editar tareas
+4. Ver tareas
+
+Metas
+1. Ver Metas
+2. Anadir Metas (Fecha de Vencimiento, descripción)
+3. Anadir tareas a las metas
+4. Eliminar meta
+
+Estadísticas
+Dar seguimiento al progreso de tus metas.
+1.  Ver progreso de Metas
+2.  Ver cuantas tareas completadas posee cada meta
+
+Base de Datos
+Primera Tabla - Usuarios
+1. id usuario
+2. Nombre
+3. Contraseña
+4. Correo electrónico
+
+Segunda Tabla - Tareas
+1. id tarea
+2. id usuario
+3. titulo
+4. descripción
+5. fecha limite
+
+Tercera Tabla - Metas
+1. id metas
+2. id tareas
+3. titulo
+4. descripción 
+5. fecha limite.
+
+Cuarta Tabla - Horario
+1. Id Horario
+2. Id usuario
+3. día semana
+4. tarea
+5. duración
